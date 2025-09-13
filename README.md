@@ -10,3 +10,31 @@ This is a animation manager for combos in godot. It allows you to play a animati
 - You can only go to the next animation if your current animation has passed the zone percent. For example, if your zone is 0.8, you can only go to the next animation once your current animation has already passed 80%.
 - You can only combo if the flag cmb is "1", if its set to zero then the combo dies. Set the cmb_ = 0 when a attack is the end of a combo loop.
 
+# How to SetUP
+
+First Create a Node, add a script and paste the code.
+
+<img width="1698" height="788" alt="image" src="https://github.com/user-attachments/assets/065f9686-5779-4926-ae51-8158f01c4964" />
+
+Then add the "Animation Player" that you want to use in your combos.
+
+
+<img width="1888" height="484" alt="image" src="https://github.com/user-attachments/assets/890033ab-de9b-4f0f-b640-f956a3441974" />
+
+
+My animation player has these animations:
+
+<img width="1485" height="703" alt="image" src="https://github.com/user-attachments/assets/095e8ba0-66f0-4364-8779-9fa42ed8727c" />
+
+Now, set up the animation flow in the code:
+
+<img width="851" height="152" alt="image" src="https://github.com/user-attachments/assets/054cd33f-4876-42be-8435-674207b283e4" />
+
+Final Result:
+
+![docShowCase](https://github.com/user-attachments/assets/da9daf6f-e047-4d87-81b2-40a5630b0271)
+
+
+
+
+
