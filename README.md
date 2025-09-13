@@ -4,7 +4,7 @@
 
 This is a animation manager for combos in godot. It allows you to play a animation after another. The System is made based in those principles:
 
-- The combo will end if an animation that is not part of the combo finishes.
+- The combo will end if an animation is finished.
 - You can only go to the next animation if you are in the current animation.
 - You can only go to the next animation if you pressed the correct key.
 - You can only go to the next animation if your current animation has passed the zone percent. For example, if your zone is 0.8, you can only go to the next animation once your current animation has already passed 80%.
